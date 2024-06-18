@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #060147;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #01bd0b9c 3px solid;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    background: url('suica.png') no-repeat center center/cover;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 150px;
+}
+
+#home h2 {
+    font-size: 50px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#home .btn {
+    display: inline-block;
+    color: #fff;
+    background: #03e7168f;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home .btn:hover {
+    background: #35424a;
+}
+
+.packages, .services, .contact {
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-card, .service-card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #008812b2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #35424a;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
